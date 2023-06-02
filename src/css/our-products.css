@@ -7,7 +7,6 @@
   margin-bottom: 72px;
 }
 .product-title {
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -33,7 +32,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  max-width: 335px;
+  max-width: 300px;
   height: 364px;
 
   background: #ffffff;
@@ -46,6 +45,12 @@
   order: 0;
   flex-grow: 0;
 }
+
+@media only screen and (min-width: 375px) {
+  .product-card {
+    max-width: 335px;
+  }
+}
 .card-txt {
   display: flex;
   flex-direction: column;
@@ -54,7 +59,6 @@
   margin-top: 8px;
 }
 .card-txt-name {
-  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33;
@@ -65,7 +69,6 @@
   margin-bottom: 2px;
 }
 .card-txt-lineup {
-  font-family: 'Montserrat';
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -75,9 +78,8 @@
   margin-bottom: 18px;
 }
 .card-btn {
-  font-family: 'Montserrat';
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 17px;
   color: #111111;
 
@@ -90,9 +92,12 @@
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 100px;
 }
-.swiper {
-  /* width: 600px;
-  height: 300px; */
+/* .swiper {
+  width: 600px;
+  height: 300px;
+} */
+.swiper-pagination {
+  position: static;
 }
 .swiper-pagination-bullet {
   width: 13px;
@@ -108,4 +113,7 @@
   border-radius: 100px;
   background: #fd9222;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.swiper-wrapper {
+  margin-bottom: 20px;
 }
