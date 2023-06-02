@@ -1,0 +1,82 @@
+.reviews {
+}
+
+.reviews-title {
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 375px) {
+.reviews-title{
+font-size: 24px;
+line-height: 1.17; 
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    .reviews-title {
+margin-bottom: 49px;
+    }
+}
+
+.title-chocolate {
+color: var(--accent-txt-cl);
+
+}
+
+.container {
+}
+.reviews-list {
+text-align: center;
+}
+.reviews-item {
+}
+.reviews-img {
+margin: auto;
+margin-bottom: 18px;
+}
+.reviews-names {
+margin-bottom: 24px;
+}
+.reviews-text {
+margin-bottom: 62px;
+}
+
+@media only screen and (min-width: 768px) {
+.reviews-text{
+margin-bottom: 72px;
+  }
+}
+
+.reviews-btn {
+min-width: 222px;
+height: 50px;
+border-radius: 100px;
+border-color: var(--accent-txt-cl);
+
+font-weight: 600;
+font-size: 14px;
+margin-bottom: 100px;
+border: 1px solid;
+transition: color var(--anim), background-color var(--anim);
+
+}
+
+@media only screen and (min-width: 768px) {
+.reviews-btn{
+font-size: 18px;
+  }
+}
+
+.reviews-btn:hover{
+background-color: var(--accent-txt-cl);
+color: var(--secondary-txt-cl);
+}
+
+.reviews-btn:focus {
+background-color: var(--accent-txt-cl);
+color: var(--secondary-txt-cl);
+}
