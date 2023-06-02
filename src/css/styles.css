@@ -16,46 +16,48 @@
 @import url('./subscribe.css');
 @import url('./footer.css');
 
-
 :root {
   /* Font */
   --font-family: 'Montserrat', sans-serif;
   /* Background */
-  --general-bg-cl:#E2E2E2;
-  --main-bg-cl:#FFFFFF;
-  --secondary-bg-cl: #1E1823;
-  --accent-bg-cl: #FD9222;
+  --general-bg-cl: #e2e2e2;
+  --main-bg-cl: #ffffff;
+  --secondary-bg-cl: #1e1823;
+  --accent-bg-cl: #fd9222;
   /* txt-color */
   --main-txt-cl: #111111;
-  --secondary-txt-cl:#ffffff;
+  --secondary-txt-cl: #ffffff;
   --dark-txt-cl: rgba(17, 17, 17, 0.7);
-  --accent-txt-cl: #FD9222;
+  --accent-txt-cl: #fd9222;
 
   /* hover */
-  --bg-cl-btn: #FCF1E0;
+  --bg-cl-btn: #fcf1e0;
 }
 
-  body{
-    font-family: var(--font-family);
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    color: var(--main-txt-cl);
-  }
+body {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-txt-cl);
+}
 
-  .container {
+.container {
   /* Basic styles */
-    min-width: 320px;
-    max-width: 375px;
-    padding: 0 20px;
-    margin: 0 auto;
-    outline: 2px solid red;
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-bottom: 72px;
+
+  outline: 2px solid red;
 }
 /* Tablet styles */
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding: 0 32px;
+    margin-bottom: 100px;
   }
 }
 
@@ -63,11 +65,11 @@
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
+    margin-bottom: 128px;
   }
 }
 
-
-.section{
+.section {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
