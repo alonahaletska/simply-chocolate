@@ -1,0 +1,13 @@
+/**
+  |============================
+  | HERO MODAL
+  |============================
+*/
+
+.hero-modal {
+    width: 95%;
+    max-width: 311px;
+    height: 95%;
+    max-height: 994px;
+    overflow: scroll;
+}
