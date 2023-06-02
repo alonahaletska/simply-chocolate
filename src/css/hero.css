@@ -249,6 +249,12 @@
     color: #FD9222;
 }
 
+.hero-scroll-down {
+  fill: #FD9222;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+
 @media only screen and (min-width: 768px) {
     .hero-scroll-down {
         width: 38px;
@@ -256,14 +262,8 @@
     }
 }
 
-.hero-scroll-down {
-    fill: #FD9222;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-}
-
 .hero-scroll-down:hover,
 .hero-scroll-down:focus {
     fill: #FFFFFF;
     background-color: #FD9222;
-}
+} 
