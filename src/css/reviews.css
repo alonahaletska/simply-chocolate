@@ -24,13 +24,14 @@ margin-bottom: 49px;
 
 .title-chocolate {
 color: var(--accent-txt-cl);
-
 }
 
 .container {
 }
+
 .reviews-list {
 text-align: center;
+display: flex;
 }
 .reviews-item {
 }
