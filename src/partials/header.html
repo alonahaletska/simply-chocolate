@@ -1,13 +1,124 @@
-<header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="../css/header.css" />
+    <title>Simply_chocolate</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container header">
+        <nav class="site-nav">
+          <a class="logo-accent link" href="../index.html"
+            >SIMPLY<span class="logo-main"> CHOCOLATE</span>
+          </a>
+          <svg class="logo-header"
+          width="21"
+          height="21">
+          <use href="../img/icons.svg#chocolate"></use>
+        </svg>
+        </nav>
+          <!-- Mobile menu burger -->
+          <div class="mobile-burger-menu">
+          <button type="button"
+          class="menu-toggle-burger js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu">
+          <svg class="mobile-menu-burger"
+            width="24"
+            height="16">
+          <use stroke="rgba(46, 47, 66, 1)" href="../img/icons.svg#burger-menu"></use>
+          </svg>
+        </button>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
-</header>
+          <div class="menu-container js-menu-container" id="mobile-menu">
+      <button type="button" class="menu-toggle-close js-close-menu">
+        <svg class="modal-menu-close" width="13" height="13">
+            <use stroke="rgba(255, 255, 255, 1)" href="../img/icons.svg#close-white"></use>
+          </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a class="link active-link mobile-menu-item" href="">Home</a></li>
+        <li><a class="link mobile-menu-item" href="">How it’s made?</a></li>
+        <li><a class="link mobile-menu-item" href="">Our products</a></li>
+        <li><a class="link mobile-menu-item" href="">Top sellers</a></li>
+        <li><a class="link mobile-menu-item" href="">Chocolate is loved</a></li>
+      </ul>
+      
+      
+      <ul class="list social-media-list-mobile">
+            <li class="social-media-item">
+              <a class="social-media-link" href="https://www.instagram.com/accounts/login/">
+                <svg class="svg-header" width="24" height="24">
+                  <use href="../img/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a class="social-media-link" href="https://twitter.com/">
+                <svg class="svg-header" width="24" height="24">
+                  <use href="../img/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </div>
+</div>
+
+    <!-- Desktop header -->
+          <nav>
+          <ul class="list header-nav">
+            <li class="nav">
+              <a class="nav-item link" href="">Home</a>
+            </li>
+            <li class="nav">
+              <a class="nav-item link" href="">How it’s made?</a>
+            </li>
+            <li class="nav">
+              <a class="nav-item link" href="">Our products</a>
+            </li>
+             <li class="nav">
+              <a class="nav-item link" href="">Top sellers</a>
+            </li>
+            <li class="nav">
+              <a class="nav-item link" href="">Chocolate is loved</a>
+            </li>
+          </ul>
+        </nav>
+        
+          <ul class="list header-social-media-list">
+            <li class="header-social-media-item">
+              <a class="header-social-media-link" href="https://www.instagram.com/accounts/login/">
+                <svg class="svg-header-black" width="24" height="24">
+                  <use href="../img/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-social-media-item">
+              <a class="header-social-media-link" href="https://twitter.com/">
+                <svg class="svg-header-black" width="24" height="24">
+                  <use href="../img/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        
+    </header>
+
+    <main>
+     
+    </main>
+    
+    <script defer src="../js/mobile-menu.js"></script>
+    
+  </body>
+</html>
