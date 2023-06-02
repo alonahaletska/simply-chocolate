@@ -38,42 +38,125 @@
   position: relative;
   overflow: hidden;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
   max-width: 335px;
   min-height: 270px;
+
+  padding: 28px;
 
   background-color: var(--main-bg-cl);
   border-radius: 15px;
   border: 1px solid var(--accent-bg-cl);
 }
+
 .accent-bg {
   background-color: var(--accent-bg-cl);
 }
+
 .black-bg {
   border: none;
   background-color: var(--secondary-bg-cl);
 }
+.components-front {
+  transform: rotateY(0deg);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 0.5s;
+  transition-property: transform, opacity;
+}
+.components-desc-wrap {
+  align-self: flex-start;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.components-item:nth-child(2n + 1) {
+  color: var(--secondary-txt-cl);
+}
+.components-thumb:hover,
+.components-thumb:focus {
+  border: none;
+}
+.components-thumb:hover .components-front,
+.components-thumb:focus .components-front {
+  transform: rotateY(180deg);
+  opacity: 0;
+}
 
-picture {
+.components-thumb:hover .overlay-card,
+.components-thumb:focus .overlay-card {
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+
+/*picture {
   position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-}
+}*/
 
 .overlay-card {
   position: absolute;
+  opacity: 0;
   top: 0;
-  transform: translateY(100%);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotateY(-180deg);
+
+  /*transform: translateY(100%);*/
 
   width: 100%;
   height: 100%;
-  padding: 40px 32px;
+  padding: 28px;
+
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 0.5s;
+  transition-property: transform, opacity;
 
   font-weight: 400;
+  color: var(--main-txt-cl);
+  background-color: var(--main-bg-cl);
+  /*transition: transform 250ms var(--timing-function);*/
+}
 
-  transition: transform 250ms var(--timing-function);
+.overlay-subtitle {
+  margin-bottom: 8px;
 
-  color: var(--color-text-light);
-  background-color: var(--acent-color);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.composition-list {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  margin-bottom: 14px;
+}
+
+.composition-item {
+  height: 24px;
+  padding: 6px 16px;
+
+  border: 1px solid var(--accent-bg-cl);
+  border-radius: 35px;
+  background-color: #fafafa;
+}
+.composition-item:first-child {
+  color: var(--secondary-txt-cl);
+  background-color: var(--accent-bg-cl);
+}
+
+.composition-item p {
+  font-size: 10px;
+  line-height: 1.2;
 }
