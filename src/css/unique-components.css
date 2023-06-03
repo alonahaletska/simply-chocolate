@@ -2,15 +2,22 @@
   padding-top: 72px;
 }
 
-.section-components .container {
-  min-width: 320px;
-  max-width: 375px;
-  padding: 0 20px;
-  margin: 0 auto;
-  outline: 2px solid red;
+/*Tablet styles*/
+@media only screen and (min-width: 768px) {
+  .section-components {
+    margin-bottom: 100px;
+  }
+}
+
+/*Desktop styles*/
+@media only screen and (min-width: 1200px) {
+  .section-components {
+    margin-bottom: 128px;
+  }
 }
 
 .section-components .section-title {
+  margin: 0 auto;
   margin-bottom: 24px;
 
   font-weight: 600;
@@ -19,6 +26,17 @@
   text-align: center;
   letter-spacing: -0.03em;
   text-transform: uppercase;
+}
+
+/*Tablet and Desktop styles*/
+@media only screen and (min-width: 768px) {
+  .section-components .section-title {
+    margin-bottom: 28px;
+    width: 411px;
+
+    font-size: 24px;
+    line-height: 1.17;
+  }
 }
 
 .section-components .accent-text {
@@ -30,9 +48,62 @@
   text-align: center;
 }
 
-.components-item:not(:last-child) {
-  margin-bottom: 20px;
+/*Tablet styles*/
+@media only screen and (min-width: 768px) {
+  .components-desc {
+    width: 486px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 767.9px) {
+  .components-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+/**
+  |============================
+  | Сітка
+  |============================
+*/
+
+/*Tablet styles*/
+@media only screen and (min-width: 768px) {
+  .components-card-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    width: 704px;
+    justify-content: center;
+  }
+
+  .components-item {
+    flex-basis: calc(100% - (32px * 1) / 2);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .components-card-set {
+    gap: 19px;
+    width: 100%;
+  }
+
+  .components-item {
+    flex-basis: calc(100% - (19px * 3) / 4);
+  }
+}
+
+/* @media only screen and (min-width: 1200px) {
+  .components-card-set {
+    gap: 19px;
+  }
+
+  .components-item {
+    
+} */
 
 .components-thumb {
   position: relative;
@@ -52,6 +123,13 @@
   background-color: var(--main-bg-cl);
   border-radius: 15px;
   border: 1px solid var(--accent-bg-cl);
+}
+
+@media only screen and (min-width: 768px) {
+  .components-thumb {
+    width: 335px;
+    height: 100%;
+  }
 }
 
 .accent-bg {
