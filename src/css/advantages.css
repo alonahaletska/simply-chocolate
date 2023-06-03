@@ -90,6 +90,9 @@ gap: 32px 60px;
 .advantages-list-item{
     width: 308px;
 }
+    li:last-child {
+      padding-bottom:18px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
