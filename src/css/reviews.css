@@ -26,13 +26,16 @@ margin-bottom: 49px;
 color: var(--accent-txt-cl);
 }
 
-.container {
+.slider-pagination {
+    
 }
 
 .reviews-list {
 text-align: center;
 display: flex;
+flex-wrap: wrap;
 }
+
 .reviews-item {
 }
 .reviews-img {
