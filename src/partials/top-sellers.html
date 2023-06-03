@@ -2,10 +2,10 @@
 
 <section class="top-sellers-section">
   <div class="container top-sellers-container">
-    <h2 class="top-sellers-title section">
+    <h2 id="top-sellers" class="top-sellers-title section">
       <span class="top-title-color">tOp</span> Sellers
     </h2>
-    <ul class="list">
+    <ul class="list top-sellers-list">
       <li class="top-item-1">
         <img
           class="top-img-1 top-img"
@@ -44,7 +44,11 @@
           src="../img/top-sellers/img-2_335.jpg"
           alt="Chocolate with raisins and nuts"
         />
-        <button type="button" class="top-sellers-btn top-item-btn">
+        <button
+          type="button"
+          class="top-sellers-btn top-item-btn"
+          data-hero-modal-open
+        >
           Buy now
         </button>
       </li>
@@ -68,7 +72,9 @@
         called Cacao. Cacao has been around for thousands of years and was first
         discovered by the Native American tribe called the Mayans.
       </p>
-      <button type="button" class="top-sellers-btn">Buy now</button>
+      <button type="button" class="top-sellers-btn" data-hero-modal-open>
+        Buy now
+      </button>
     </div>
   </div>
 </section>
