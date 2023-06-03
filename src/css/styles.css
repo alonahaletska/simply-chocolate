@@ -25,6 +25,7 @@
   --main-bg-cl:#FFFFFF;
   --secondary-bg-cl: #1E1823;
   --accent-bg-cl: #FD9222;
+  --list-bg-cl:#4C4C4C;
   /* txt-color */
   --main-txt-cl: #111111;
   --secondary-txt-cl:#ffffff;
@@ -33,6 +34,10 @@
 
   /* hover */
   --bg-cl-btn: #FCF1E0;
+
+  /*  */
+  --border:#ECEDED;
+  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
   body{
@@ -66,6 +71,21 @@
   }
 }
 
+.section{
+  padding-bottom: 72px;
+}
+
+@media only screen and (min-width: 768px) {
+  .section{
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .section{
+    padding-bottom: 128px;
+  }
+}
 
 .section-title{
   font-weight: 600;
