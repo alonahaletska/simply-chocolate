@@ -1,31 +1,5 @@
-.section-components {
-  padding-top: 72px;
-}
-
-/*Tablet styles*/
-@media only screen and (min-width: 768px) {
-  .section-components {
-    padding-top: 100px;
-  }
-}
-
-/*Desktop styles*/
-@media only screen and (min-width: 1200px) {
-  .section-components {
-    padding-top: 128px;
-  }
-}
-
 .section-components .section-title {
-  margin: 0 auto;
   margin-bottom: 24px;
-
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
 }
 
 /*Tablet and Desktop styles*/
@@ -171,16 +145,20 @@
 }
 .components-desc-wrap {
   align-self: flex-start;
+
   font-weight: 600;
   text-transform: uppercase;
 }
+
 .components-item:nth-child(2n + 1) {
   color: var(--secondary-txt-cl);
 }
+
 .components-thumb:hover,
 .components-thumb:focus {
   border: none;
 }
+
 .components-thumb:hover .components-front,
 .components-thumb:focus .components-front {
   transform: rotateY(180deg);
