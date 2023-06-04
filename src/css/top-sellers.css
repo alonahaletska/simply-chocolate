@@ -1,11 +1,6 @@
 /* Top sellers */
 
-.container {
-  outline: 2px solid red;
-  outline-offset: -2px;
-}
-
-.section {
+.top-sellers-title {
   margin-bottom: 32px;
 }
 .top-title-color {
@@ -25,11 +20,7 @@
     margin-bottom: 32px;
   }
 }
-@media only screen and (max-width: 1199px) {
-  .top-item-3 {
-    display: none;
-  }
-}
+
 @media only screen and (min-width: 768px) {
   .top-item-text {
     display: none;
@@ -49,7 +40,11 @@
     margin-bottom: 0;
   }
 }
-
+@media only screen and (max-width: 1199px) {
+  .top-item-3 {
+    display: none;
+  }
+}
 .top-img {
   width: 335px;
   height: 464px;
@@ -83,7 +78,7 @@
 
   transition-property: background-color, color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--cubic);
 }
 .top-sellers-btn:hover,
 .top-sellers-btn:focus {
