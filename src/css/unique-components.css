@@ -91,7 +91,7 @@
   /* overflow: hidden; */
 
   max-width: 335px;
-  min-height: 270px;
+  max-height: 270px;
 
   padding: 28px;
 
@@ -157,6 +157,7 @@
 .components-thumb:hover,
 .components-thumb:focus {
   border: none;
+  background-color: transparent;
 }
 
 .components-thumb:hover .components-front,
