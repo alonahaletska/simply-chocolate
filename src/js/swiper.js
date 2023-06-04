@@ -5,8 +5,7 @@ const swiper = new Swiper('.swiper', {
 
   // If we need pagination
   pagination: {
-      el: '.swiper-pagination',
-    
+    el: '.swiper-pagination',
   },
 
   // Navigation arrows
@@ -19,36 +18,32 @@ const swiper = new Swiper('.swiper', {
   scrollbar: {
     el: '.swiper-scrollbar',
   },
-  
 
-     slidesPerView: 1,
-      spaceBetween: 10,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true, // что-бы сделать пагинацию кликабельной
+  slidesPerView: 1,
+  spaceBetween: 10,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true, // что-бы сделать пагинацию кликабельной
   },
-      loop:true,
-      breakpoints: {
-        375: {
-          slidesPerView: 1,
-        },
-        768: {
-          slidesPerView: 2.5,
-          spaceBetween: 18,
-        },
-        1200: {
-          slidesPerView: 4,
-          spaceBetween: 18,
-        },
-      },
-
+  loop: true,
+  breakpoints: {
+    375: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2.5,
+      spaceBetween: 18,
+    },
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 18,
+    },
+  },
 
   // variableWidth: true,
 
-
   // spaceBetween: -200,
 
-  
   //   breakpoints: {
   //   320: {
   //     sliderPerView: 1,
@@ -60,6 +55,4 @@ const swiper = new Swiper('.swiper', {
   //     sliderPerView: 4,
   //   }
   // },
-
-  
 });
