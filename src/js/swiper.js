@@ -21,7 +21,7 @@ const swiper = new Swiper('.swiper', {
   },
   
 
-     slidesPerView: 1,
+    slidesPerView: 1,
       spaceBetween: 10,
       pagination: {
         el: ".swiper-pagination",
