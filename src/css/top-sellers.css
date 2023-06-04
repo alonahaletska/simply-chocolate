@@ -123,5 +123,9 @@
 
 .top-sellers-text {
   width: 306px;
-  height: 90px;
+}
+@media only screen and (min-width: 1200px) {
+  .top-sellers-text {
+    width: 407px;
+  }
 }
