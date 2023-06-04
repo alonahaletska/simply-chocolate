@@ -1,6 +1,4 @@
-
-.reviews-sec{
-
+.reviews-sec {
 }
 
 .reviews{
@@ -10,6 +8,7 @@ line-height: 1.2;
 text-align: center;
 margin-bottom: 32px;
 }
+
 
 @media only screen and (min-width: 375px) {
 .reviews-title{
@@ -28,22 +27,9 @@ margin-bottom: 49px;
 color: var(--accent-txt-cl);
 }
 
-
-.reviews-list {
-text-align: center;
-display: flex;
-flex-wrap: wrap;
-}
-
-.reviews-item {
-}
-
 .reviews-img {
 margin: auto;
 margin-bottom: 18px;
-position: absolute;
-left: 132px;
-
 
 }
 
@@ -52,14 +38,9 @@ margin-bottom: 24px;
 
 }
 .reviews-text {
-padding-bottom: 62px;
-}
+padding-bottom: 42px;}
 
-@media only screen and (min-width: 768px) {
-.reviews-text{
-padding-bottom: 72px;
-  }
-}
+
 
 .reviews-btn {
 min-width: 222px;
@@ -69,8 +50,8 @@ border-color: var(--accent-txt-cl);
 font-weight: 600;
 font-size: 14px;
 margin-bottom: 100px;
-border: 1px solid;
-
+display: block;
+margin: auto;
 
 }
 
@@ -102,14 +83,44 @@ color: var(--secondary-txt-cl);
   | Pagination styles
   |============================
 */
-.swiper {
 
-  width: 335px;
+
+.slides-card {
+  max-width: 360px;
   height: 200px;
+  padding-left: 18px;
+  padding-right: 18px;
+ 
 
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  background: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
-  border-radius: 15px;
   box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+  border-radius: 15px;
+
+}
+
+.swiper-slide {
+  max-width: 360px;
+  height: 200px;
+}
+
+
+
+.slides-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
 }
 
 .slider_pagination_btn {
@@ -127,4 +138,33 @@ color: var(--secondary-txt-cl);
 
 .slider_pagination_btn:hover {
   background-color: #aaa;
+} 
+
+/* .swiper {
+  overflow: visible;
+} */
+
+​.swiper-pagination {
+  position: static;
+}
+
+.swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  margin: 0 6.5px !important;
+}
+
+​ .swiper-pagination-bullet-active {
+  box-sizing: border-box;
+  ​width: 28px;
+  border-radius: 100px;
+  background: #fd9222;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.swiper-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
