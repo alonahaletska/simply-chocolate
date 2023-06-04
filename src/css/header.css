@@ -1,5 +1,4 @@
 
-
 /* ====== Mobile + tablet menu burger ======= */
 
 @media only screen and (min-width: 320px) and (max-width: 1199px) {
@@ -9,7 +8,6 @@
 
   .mobile-burger-menu {
     margin-left: auto;
-
   }
 
   .menu-toggle-burger {
@@ -62,7 +60,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 60vw;
+    width: 70vw;
     height: 100vh;
     padding-top: 136px;
     padding-left: 32px;
@@ -92,22 +90,19 @@
   }
 
   .mobile-menu-item {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
-
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
+    color: var(--secondary-txt-cl);
     text-align: left;
   }
 
-
+.social-media-item
+{
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
   .active-link {
-    color: #FD9222;
+    color: var(----accent-txt-cl);
   }
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -140,21 +135,15 @@ stroke: rgba(255, 255, 255, 1);
     padding-left: 32px;
     padding-bottom: 24px;
     padding-right: 85px;
-
   }
 }
-
-/* ======================================== */
-
-
-
 
 /* =============HEADER-MAIN==================== */
 
 @media screen and (min-width:320px)  {
   .header {
     height: 70px;
-    padding: 25px 0px 19px 0px;
+    padding: 25px 0px 20px 0px;
     display: flex;
   }
 
@@ -168,13 +157,10 @@ stroke: rgba(255, 255, 255, 1);
 }
 
 .logo-accent {
-  font-family: 'Montserrat';
   font-style: italic;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.29;
   letter-spacing: -0.03em;
-  color: #111111;
+  color: var(----main-txt-cl);
   text-decoration: none;
 }
 
@@ -184,26 +170,17 @@ margin-left: 4px;
 }
 
 .logo-main {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.29;
   letter-spacing: -0.03em;
-  color: #111111;
+  color: var(--main-txt-cl);
   text-decoration: none;
 }
 
-
-
 @media only screen and (min-width: 768px) {
   .header {
-    height: 80px;
-  
+    height: 80px; 
   }
-
 }
-
 
 @media screen and (min-width: 1200px) {
 
@@ -212,16 +189,13 @@ margin-left: 4px;
   }
 
   .main-header {
-
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .header {
-
     margin-right: auto;
-  
   }
 
   .logo-accent
@@ -237,18 +211,11 @@ margin-left: 4px;
 
   .nav-item
   {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
-  
-  
     display: flex;
     align-items: center;
-    letter-spacing: -0.02em;
-  
-    color: #111111;
+    color: var(--main-txt-cl);
   }
   .header-nav {
     display: flex;
@@ -267,7 +234,7 @@ margin-left: 4px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: rgba(17, 17, 17, 1);
+    color: var(----dark-txt-cl);
     text-decoration: none;
     list-style: none;
 
@@ -287,6 +254,7 @@ margin-left: 4px;
   .header-social-media-list {
     display: flex;
     gap: 20px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
