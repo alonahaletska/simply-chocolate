@@ -132,8 +132,8 @@ img {
     flex-direction: column;
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100vw;
+    right: 0;
+    width: 60vw;
     height: 100vh;
     padding-top: 136px;
     padding-left: 32px;
@@ -159,7 +159,7 @@ img {
     text-decoration: none;
     list-style-type: none;
     margin-bottom: auto;
-    margin-left: 85px;
+    margin-left: 18px;
   }
 
   .mobile-menu-item {
@@ -180,6 +180,13 @@ img {
   }
 
 }
+
+@media only screen and (min-width: 768px) {
+   
+  .mobile-menu {
+      margin-left: 53px;
+    }
+  }
 
 .svg-header
 {
@@ -240,6 +247,11 @@ stroke: rgba(255, 255, 255, 1);
   letter-spacing: -0.03em;
   color: #111111;
   text-decoration: none;
+}
+
+.logo-header
+{
+margin-left: 4px;
 }
 
 .logo-main {
