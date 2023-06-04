@@ -22,14 +22,106 @@
 <!--Бібліотека свайпер  -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <script type="module" crossorigin src="/simply-chocolate/assets/index-dc5975df.js"></script>
-  <link rel="stylesheet" href="/simply-chocolate/assets/index-098abfbf.css">
+  <link rel="stylesheet" href="/simply-chocolate/assets/index-4f96ffc1.css">
 </head>
 
     <body>
     <!-- Підключення хедера  -->
-    <header class="header">
+    
+     <header class="container main-header">
+      <div class="header">
+        <nav class="site-nav">
+          <a class="logo-accent link" href="../index.html"
+            >SIMPLY<span class="logo-main"> CHOCOLATE</span>
+          </a>
+          <svg class="logo-header"
+          width="21"
+          height="21">
+          <use href="../img/icons.svg#chocolate"></use>
+        </svg>
+        </nav>
+          <!-- Mobile menu burger -->
+          <div class="mobile-burger-menu">
+          <button type="button"
+          class="menu-toggle-burger js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu">
+          <svg class="mobile-menu-burger"
+            width="24"
+            height="16">
+          <use stroke="rgba(46, 47, 66, 1)" href="../img/icons.svg#burger-menu"></use>
+          </svg>
+        </button>
+          <div class="menu-container js-menu-container" id="mobile-menu">
+      <button type="button" class="menu-toggle-close js-close-menu">
+        <svg class="modal-menu-close" width="13" height="13">
+            <use stroke="rgba(255, 255, 255, 1)" href="../img/icons.svg#close-white"></use>
+          </svg>
+      </button>
+      <ul class="mobile-menu">
+        <li><a class="link active-link mobile-menu-item" href="../index.html">Home</a></li>
+        <li><a class="link mobile-menu-item" href="#How_its_made">How it’s made?</a></li>
+        <li><a class="link mobile-menu-item" href="#Our_products">Our products</a></li>
+        <li><a class="link mobile-menu-item" href="#Top_sellers">Top sellers</a></li>
+        <li><a class="link mobile-menu-item" href="#Chocolate_is_loved">Chocolate is loved</a></li>
+      </ul>
+      <ul class="list social-media-list-mobile">
+            <li class="social-media-item">
+              <a class="social-media-link" href="https://www.instagram.com/accounts/login/">
+                <svg class="svg-header" width="24" height="24">
+                  <use href="../img/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a class="social-media-link" href="https://twitter.com/">
+                <svg class="svg-header" width="24" height="24">
+                  <use href="../img/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </div>
+</div>
+    <!-- Desktop header -->
+          <nav>
+          <ul class="list header-nav">
+            <li class="nav">
+              <a class="nav-item link" href="../index.html">Home</a>
+            </li>
+            <li class="nav">
+              <a class="nav-item link" href="#How_its_made">How it’s made?</a>
+            </li>
+            <li class="nav">
+              <a class="nav-item link" href="#Our_products">Our products</a>
+            </li>
+             <li class="nav">
+              <a class="nav-item link" href="#Top_sellers">Top sellers</a>
+            </li>
+            <li class="nav">
+              <a class="nav-item link" href="#Chocolate_is_loved">Chocolate is loved</a>
+            </li>
+          </ul>
+        </nav>
+          <ul class="list header-social-media-list">
+            <li class="header-social-media-item">
+              <a class="header-social-media-link" href="https://www.instagram.com/accounts/login/">
+                <svg class="svg-header-black" width="24" height="24">
+                  <use href="../img/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-social-media-item">
+              <a class="header-social-media-link" href="https://twitter.com/">
+                <svg class="svg-header-black" width="24" height="24">
+                  <use href="../img/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul> 
+    </header>
 
-</header>
 
     <!-- Підключення секцій -->
     <main>
@@ -63,7 +155,7 @@
         <svg class="hero-scroll-down">
           <use
             class="hero-scroll-icon"
-            href="/simply-chocolate/assets/icons-75854103.svg#scroll-down"
+            href="/simply-chocolate/assets/icons-faf0506e.svg#scroll-down"
           ></use>
         </svg>
       </a>
@@ -79,7 +171,7 @@
 <div class="advantages-icon-container">
 <span class="advantages-circle-icon">
 <svg class="advantages-list-icon" width="32" height="32">
-<use href="/simply-chocolate/assets/icons-75854103.svg#contrast_chocolate-bar"></use>
+<use href="/simply-chocolate/assets/icons-faf0506e.svg#contrast_chocolate-bar"></use>
 </svg>
 </span>
 </div>
@@ -93,7 +185,7 @@
     <div class="advantages-icon-container">
         <span class="advantages-circle-icon">
         <svg class="advantages-list-icon" width="32" height="32">
-        <use href="/simply-chocolate/assets/icons-75854103.svg#coin"></use>
+        <use href="/simply-chocolate/assets/icons-faf0506e.svg#coin"></use>
         </svg>
     </span>
         </div>
@@ -107,7 +199,7 @@
     <div class="advantages-icon-container">
         <span class="advantages-circle-icon">
         <svg class="advantages-list-icon" width="32" height="32">
-        <use href="/simply-chocolate/assets/icons-75854103.svg#spoon"></use>
+        <use href="/simply-chocolate/assets/icons-faf0506e.svg#spoon"></use>
         </svg>
         </span>
         </div>
@@ -910,6 +1002,7 @@
     </nav>
   </div>
 </footer>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
