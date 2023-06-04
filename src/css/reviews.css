@@ -1,7 +1,11 @@
-.reviews {
+
+.reviews-sec {
+  position: relative;
+
 }
 
-.reviews-title {
+
+.reviews{
 font-weight: 600;
 font-size: 20px;
 line-height: 1.2;
@@ -26,9 +30,6 @@ margin-bottom: 49px;
 color: var(--accent-txt-cl);
 }
 
-.slider-pagination {
-    
-}
 
 .reviews-list {
 text-align: center;
@@ -42,9 +43,10 @@ flex-wrap: wrap;
 .reviews-img {
 margin: auto;
 margin-bottom: 18px;
-position: absolute;
-left: 132px;
 
+/* position: absolute;
+left: 0;
+top: 0; */
 
 }
 .reviews-names {
@@ -53,46 +55,37 @@ position: relative;
 
 }
 .reviews-text {
-margin-bottom: 62px;
+padding-bottom: 62px;
 }
 
 @media only screen and (min-width: 768px) {
 .reviews-text{
-margin-bottom: 72px;
+padding-bottom: 72px;
   }
-}
-/**
-  |============================
-  | Pagination styles
-  |============================
-*/
-.swiper {
- 
-  width: 335px;
-  height: 200px;
-
-  border: 1px solid rgba(17, 17, 17, 0.1);
-  border-radius: 15px;
-  box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
 }
 
 .reviews-btn {
 min-width: 222px;
 height: 50px;
-border-radius: 100px;
 border-color: var(--accent-txt-cl);
 
-font-weight: 600;
-font-size: 14px;
-margin-bottom: 100px;
-border: 1px solid;
-
+margin: auto;
+display: block;
+margin-top: 65px;
 
 }
 
 @media only screen and (min-width: 768px) {
 .reviews-btn{
 font-size: 18px;
+margin-top: 108px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .reviews-btn {
+    font-size: 18px;
+    margin-top: 94px;
   }
 }
 
@@ -104,4 +97,44 @@ color: var(--secondary-txt-cl);
 .reviews-btn:focus {
 background-color: var(--accent-txt-cl);
 color: var(--secondary-txt-cl);
+}
+
+/**
+  |============================
+  | Pagination styles
+  |============================
+*/
+.swiper {
+
+width: 335px;
+height: 200px;
+
+border: 1px solid rgba(17, 17, 17, 0.1);
+border-radius: 15px;
+box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+}
+
+.swiper-slide {
+
+}
+
+.slider_pagination_btn {
+  display: inline-block;
+  padding: 6px;
+  margin: 5px;
+  background-color: var(--accent-txt-cl);
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* override default button styles */
+  border: none;
+  outline: none;
+}
+
+.slider_pagination_btn:hover {
+  background-color: #aaa;
+}
+
+.slider_pagination_btn:focus {
+  background-color: #777;
 }
