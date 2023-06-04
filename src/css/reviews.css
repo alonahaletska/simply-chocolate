@@ -1,9 +1,7 @@
 
-.reviews-sec {
-  position: relative;
+.reviews-sec{
 
 }
-
 
 .reviews{
 font-weight: 600;
@@ -44,9 +42,9 @@ flex-wrap: wrap;
 margin: auto;
 margin-bottom: 18px;
 
-/* position: absolute;
+position: absolute;
 left: 0;
-top: 0; */
+top: 10px;
 
 }
 .reviews-names {
@@ -104,7 +102,7 @@ color: var(--secondary-txt-cl);
   | Pagination styles
   |============================
 */
-.swiper {
+.swiper-slide {
 
 width: 335px;
 height: 200px;
