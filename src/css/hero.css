@@ -84,7 +84,7 @@
 }
 
 .hero-container {
-  width: 280px;
+  width: 100%;
   padding: 0 20px;
   margin: 0 auto;
 
@@ -92,22 +92,8 @@
     outline-offset: -2px; */
 }
 
-@media only screen and (min-width: 375px) {
-  .hero-container {
-    width: 335px;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   .hero-container {
-    width: 704px;
-    padding: 0 40px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .hero-container {
-    width: 1136px;
     padding: 0 40px;
   }
 }
