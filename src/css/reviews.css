@@ -19,7 +19,7 @@ line-height: 1.17;
 }
 
 @media only screen and (min-width: 768px) {
-    .reviews-title {
+   .reviews-title {
 margin-bottom: 49px;
     }
 }
@@ -41,15 +41,14 @@ flex-wrap: wrap;
 .reviews-img {
 margin: auto;
 margin-bottom: 18px;
-
 position: absolute;
-left: 0;
-top: 10px;
+left: 132px;
+
 
 }
+
 .reviews-names {
 margin-bottom: 24px;
-position: relative;
 
 }
 .reviews-text {
@@ -67,9 +66,11 @@ min-width: 222px;
 height: 50px;
 border-color: var(--accent-txt-cl);
 
-margin: auto;
-display: block;
-margin-top: 65px;
+font-weight: 600;
+font-size: 14px;
+margin-bottom: 100px;
+border: 1px solid;
+
 
 }
 
@@ -96,31 +97,26 @@ color: var(--secondary-txt-cl);
 background-color: var(--accent-txt-cl);
 color: var(--secondary-txt-cl);
 }
-
 /**
   |============================
   | Pagination styles
   |============================
 */
-.swiper-slide {
+.swiper {
 
-width: 335px;
-height: 200px;
+  width: 335px;
+  height: 200px;
 
-border: 1px solid rgba(17, 17, 17, 0.1);
-border-radius: 15px;
-box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
-}
-
-.swiper-slide {
-
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
 }
 
 .slider_pagination_btn {
   display: inline-block;
   padding: 6px;
   margin: 5px;
-  background-color: var(--accent-txt-cl);
+  background-color: #ccc;
   border-radius: 10px;
   cursor: pointer;
 
@@ -131,8 +127,4 @@ box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
 
 .slider_pagination_btn:hover {
   background-color: #aaa;
-}
-
-.slider_pagination_btn:focus {
-  background-color: #777;
 }
