@@ -79,9 +79,9 @@
       <label class="hero-modal-label" for="modal_name"
         >Personal information</label
       >
-      <div class="hero-modal-wrapper hero-flex">
+      <div class="hero-modal-input-wrapper hero-modal-name-wrapper hero-flex">
         <input
-          class="hero-modal-input"
+          class="hero-modal-input hero-modal-name-input"
           type="text"
           name="modal_name"
           id="modal_name"
@@ -89,7 +89,7 @@
           required
         />
         <input
-          class="hero-modal-input"
+          class="hero-modal-input hero-modal-name-input"
           type="text"
           name="modal_surname"
           id="modal_surname"
@@ -108,8 +108,17 @@
         required
       />
       <label class="hero-modal-label" for="modal_phone">Phone number</label>
-      <div class="hero-modal-icon-wrapper hero-phone-wrapper hero-flex">
-        <input id="outer_text" placeholder="+380" />
+      <div class="hero-modal-input-wrapper hero-phone-wrapper hero-flex">
+        <div class="hero-modal-number-wrapper hero-flex">
+          <svg class="hero-modal-number-icon" width="24" height="18">
+            <use href="./img/icons.svg#"></use>
+          </svg>
+          <input
+            class="hero-modal-outer-text"
+            id="outer_text"
+            placeholder="+380"
+          />
+        </div>
         <input
           class="hero-modal-input hero-modal-right-input"
           type="tel"
@@ -120,18 +129,20 @@
         />
       </div>
       <label class="hero-modal-label" for="modal_card">Card number</label>
-      <div class="hero-modal-icon-wrapper">
+      <div class="hero-modal-input-wrapper hero-card-wrapper hero-flex">
         <input
-          class="hero-modal-input hero-card-modal-input"
-          type="number"
+          class="hero-modal-input hero-modal-card-input"
+          type="text"
           name="modal_card"
           id="modal_card"
           placeholder="Enter card"
           required
         />
-        <svg class="hero-modal-icon" width="32" height="21">
-          <use href="./img/icons.svg#"></use>
-        </svg>
+        <div class="hero-modal-card-wrapper">
+          <svg class="hero-modal-card-icon" width="22" height="13">
+            <use href="./img/icons.svg#"></use>
+          </svg>
+        </div>
       </div>
       <label class="hero-modal-label" for="modal_comment">Comment</label>
       <textarea
