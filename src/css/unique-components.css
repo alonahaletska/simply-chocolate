@@ -170,6 +170,7 @@
 .components-thumb:focus .overlay-card {
   opacity: 1;
   overflow: scroll;
+  overflow-x: hidden;
   transform: rotateY(0deg);
 }
 
