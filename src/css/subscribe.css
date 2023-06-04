@@ -1,135 +1,142 @@
-<style>
-   
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  color: white;
-}
-
-.background-image {
-  position: relative;
-  background-image: url('path/to/your/image.jpg');
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-}
-
-.overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-}
-
-h1 {
-  font-size: 36px;
-}
-
-p {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-button {
-  display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 12px 28px;
-gap: 14px;
-width: 128px;
-height: 41px;
-background: #FD9222;
-border-radius: 100px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-/* Media  for mobile  */
-@media (max-width: 768px) {
-  .background-image {
-    background-position: top;
+.subscribe{
+  background-image:url(../img/Subscribe/Subcribe-t.jpg);
+  padding-top: 62px;
+  padding-bottom: 62px;
   }
-
-  .overlay {
-    width: 80%;
-    padding: 10px;
+  
+  .subscribe-title
+  {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 1.2;
+      text-align: center;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+  
+      width: 291px;
+      height: 48px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 24px;
   }
-
-  h1 {
-    font-size: 24px;
+  
+  .subscribe-text
+  {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.29;
+      text-align: center;
+      letter-spacing: -0.02em;
+  
+      color: #FFFFFF;
+      width: 326px;
+      
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 24px;
   }
-
-  p {
-    font-size: 16px;
+  
+  .subscribe-btn
+  {   display: block;
+      width: 128px;
+      height: 41px;
+      background-color: rgba(253, 146, 34, 1);
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 100px;
+      border-color: transparent;
+      margin-right: auto;
+      margin-left: auto;
+  
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.2;
+      color: #FFFFFF;
+  
   }
-}
-
-/* Media for tablets */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .background-image {
-    height: 500px;
-    background-position: center;
+  
+  @media only screen and (min-width: 768px) {
+     
+      .subscribe{
+      padding-top:72px;
+      padding-bottom:72px;
+    }
   }
-
-  .overlay {
-    width: 60%;
-    padding: 20px;
-  }
-
-  h1 {
-    font-size: 30px;
-  }
-
-  p {
-    font-size: 18px;
-  }
-}
-
-/* Media for desktop */
-@media (min-width: 1024px) {
-  .background-image {
-    height: 600px;
-    background-position: center;
-  }
-
-  .overlay {
-    width: 40%;
-    padding: 30px;
-  }
-
-  h1 {
-    display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 28px;
-
-width: 291px;
-height: 48px;
-  }
-
-  p {
-    width: 326px;
-    height: 108px;
-    
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    letter-spacing: -0.02em;
-     color: #FFFFFF;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-  }
-}
-  </style>
-</head>
-<body>
+    .subscribe-title
+    {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 1.17;
+      width: 378px;
+      height: 56px;
+      
+    }
+  
+    .subscribe-text {
+        
+        width: 467px;
+  
+    }
+  
+    .subscribe-btn {
+      
+        width: 172px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 1.2;
+       
+  
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      .subscribe {
+        background-image: url(../img/Subscribe/Subcribe-d.jpg);
+        padding-top: 72px;
+        padding-bottom: 72px;
+      }
+    }
+  
+      .subscribe-title {
+        font-size: 24px;
+        width: 378px;
+        height: 56px;
+        margin-bottom: 24px;
+      }
+  
+      .subscribe-text {
+        width: 467px;
+      }
+  
+      .subscribe-btn {
+        width: 172px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 1.2;
+      }
+      @media only screen and (max-width: 320px) {
+        .subscribe {
+          background-image: url(../img/Subscribe/Subcribe.jpg);
+          padding-top: 62px;
+          padding-bottom: 62px;
+        }
+      }
+        .subscribe-title {
+          font-size: 20px;
+          width: 291px;
+          height: 48px;
+          margin-bottom: 24px;
+        }
+      
+        .subscribe-text {
+          width: 326px;
+        }
+      
+        .subscribe-btn {
+            width: 128px
+          }
