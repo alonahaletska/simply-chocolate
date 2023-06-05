@@ -2,6 +2,10 @@
   background-image:url(../img/Subscribe/Subcribe-t.jpg);
   padding-top: 62px;
   padding-bottom: 62px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
   }
   
   .subscribe-title
@@ -67,6 +71,9 @@
       .subscribe{
       padding-top:72px;
       padding-bottom:72px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
     }
   }
     .subscribe-title
@@ -99,6 +106,9 @@
         background-image: url(../img/Subscribe/Subcribe-d.jpg);
         padding-top: 72px;
         padding-bottom: 72px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
       }
     }
   
@@ -124,6 +134,9 @@
           background-image: url(../img/Subscribe/Subcribe.jpg);
           padding-top: 62px;
           padding-bottom: 62px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
         }
       }
         .subscribe-title {
