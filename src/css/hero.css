@@ -413,7 +413,7 @@
   height: 85px;
   padding: 8px 16px;
 
-  background-color: #FFFFFF;
+  background-color: var(--main-bg-cl);
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
 
@@ -458,7 +458,7 @@
 
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 100px;
-  color: #111111;
+  color: var(--main-txt-cl);
   background-color: #FAFAFA;
 }
 
@@ -470,8 +470,8 @@
 
 .hero-order-button:hover,
 .hero-order-button:focus {
-  color: #FFFFFF;
-  background-color: #FD9222;
+  color: var(--secondary-txt-cl);
+  background-color: var(--accent-bg-cl);
 }
 
 /* HERO MODAL FORM */
@@ -662,7 +662,7 @@
 
 .hero-modal-button {
   padding: 12px 28px;
-  background-color: #FD9222;
+  background-color: var(--accent-bg-cl);
   border: none;
 }
 
@@ -674,6 +674,6 @@
 
 .hero-modal-button:hover,
 .hero-modal-button:focus {
-  color: #FD9222;
-  background-color: #FCF1E0;
+  color: var(--accent-bg-cl);
+  background-color: var(--bg-cl-btn);
 }
