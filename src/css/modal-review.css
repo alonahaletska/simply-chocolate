@@ -1,6 +1,6 @@
 /*Modal Window - leave a review about our chocolate*/
 
-.backdrop-leave-a-review {
+.backdrop-review {
 
     position: fixed;
     top: 0;
@@ -12,14 +12,14 @@
 
 }
 
-.backdrop-leave-a-review.is-hidden{
+.backdrop-review.is-hidden{
 
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
 }
 
-.modal-leave-a-review {
+.modal-review {
 
     position: absolute;
     top: calc(50%);
