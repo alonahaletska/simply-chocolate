@@ -337,7 +337,7 @@
   .hero-modal {
     max-width: 609px;
     max-height: 1058px;
-    padding: 48px 48px;
+    padding: 48px auto;
     overflow-x: hidden;
   }
 }
