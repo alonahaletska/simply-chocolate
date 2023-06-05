@@ -11,6 +11,7 @@
 .technique-img-wrapper {
   position: relative;
   margin-bottom: 20px;
+  width: 100%;
 }
 .icon-play {
   position: absolute;
@@ -37,8 +38,8 @@
 .technique-description-item::before {
   content: '';
   display: inline-block;
-  background-color: #4c4c4c;
-  border: 1px solid #eceded;
+  background-color: var(--list-bg-cl);
+  border: 1px solid var(--border);
   border-radius: 50%;
   width: 8px;
   height: 8px;
@@ -69,7 +70,5 @@
     display: flex;
     gap: 20px;
   }
-  .technique-description {
-    padding-bottom: 34px;
-  }
+
 }
