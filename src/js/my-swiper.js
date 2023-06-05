@@ -1,4 +1,4 @@
-    let swiper = new Swiper(".mySwiper", {
+    let swiper = new mySwiper(".mySwiper", {
       slidesPerView: 1,
       spaceBetween: 10,
       pagination: {
