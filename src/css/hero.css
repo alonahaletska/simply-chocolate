@@ -209,6 +209,12 @@
   }
 }
 
+.hero-order-button:hover,
+.hero-order-button:focus {
+  color: #FFFFFF;
+  background-color: #FD9222;
+}
+
 /* HERO MODAL FORM */
 
 .hero-modal-form {
@@ -341,7 +347,8 @@
 @media only screen and (min-width: 768px) {
   .hero-modal-number-icon {
     width: 32px;
-    height: 24px;
+    height: 32px;
+    margin-right: 18px;
   }
 }
 
@@ -359,10 +366,15 @@
   width: 100%;
 }
 
+.hero-modal-card-icon {
+  margin: 12px 14px;
+}
+
 @media only screen and (min-width: 768px) {
   .hero-modal-card-icon {
-    width: 31px;
-    height: 19px;
+    width: 44px;
+    height: 30px;
+    margin: 18px 24px;
   }
 }
 
@@ -398,4 +410,10 @@
   .hero-modal-button {
     padding: 14px 40px;
   }
+}
+
+.hero-modal-button:hover,
+.hero-modal-button:focus {
+  color: #FD9222;
+  background-color: #FCF1E0;
 }
