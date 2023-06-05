@@ -352,6 +352,7 @@
 
   border: none;
   border-radius: 50%;
+  background-color: transparent;
 }
 
 @media only screen and (min-width: 768px) {
