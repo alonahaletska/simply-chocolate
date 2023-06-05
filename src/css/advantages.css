@@ -58,6 +58,10 @@ color: rgba(255, 255, 255, 0.7);
    padding:20px;
    gap:20px;
     }
+
+    .advantages-list-item:last-child {
+        padding-bottom:16px;
+      }
 }
 
 @media screen and (min-width: 375px) and (max-width: 767px){
@@ -74,6 +78,10 @@ color: rgba(255, 255, 255, 0.7);
 .advantages-list-item{
         width: 308px;
     }
+
+    .advantages-list-item:last-child {
+        padding-bottom:16px;
+      }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px){
 .advantages-section {
@@ -90,7 +98,7 @@ gap: 32px 60px;
 .advantages-list-item{
     width: 308px;
 }
-    li:last-child {
+.advantages-list-item:last-child {
       padding-bottom:18px;
     }
 }
