@@ -55,7 +55,7 @@ body {
   padding: 0 20px;
   margin: 0 auto;
 
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 /* Tablet styles */
 @media only screen and (min-width: 768px) {
