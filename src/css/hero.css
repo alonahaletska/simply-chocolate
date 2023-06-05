@@ -8,6 +8,22 @@
   display: flex;
 }
 
+.hero-section {
+  padding-bottom: 72px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .hero-section {
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-section {
+    padding-bottom: 72px;
+  }
+}
+
 .hero-container {
   min-width: 280px;
   max-width: 320px;
