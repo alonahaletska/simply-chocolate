@@ -4,28 +4,20 @@
 
 /*Tablet styles*/
 @media only screen and (min-width: 768px) {
-  .section-components {
+  .section {
     padding-top: 100px;
   }
 }
 
 /*Desktop styles*/
 @media only screen and (min-width: 1200px) {
-  .section-components {
+  .section {
     padding-top: 128px;
   }
 }
 
 .section-components .section-title {
-  margin: 0 auto;
   margin-bottom: 24px;
-
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
 }
 
 /*Tablet and Desktop styles*/
@@ -58,7 +50,7 @@
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 767.9px) {
+@media only screen and (max-width: 767.9px) {
   .components-item:not(:last-child) {
     margin-bottom: 20px;
   }
@@ -117,7 +109,7 @@
   /* overflow: hidden; */
 
   max-width: 335px;
-  min-height: 270px;
+  max-height: 270px;
 
   padding: 28px;
 
@@ -171,16 +163,21 @@
 }
 .components-desc-wrap {
   align-self: flex-start;
+
   font-weight: 600;
   text-transform: uppercase;
 }
+
 .components-item:nth-child(2n + 1) {
   color: var(--secondary-txt-cl);
 }
+
 .components-thumb:hover,
 .components-thumb:focus {
   border: none;
+  background-color: transparent;
 }
+
 .components-thumb:hover .components-front,
 .components-thumb:focus .components-front {
   transform: rotateY(180deg);
@@ -191,6 +188,7 @@
 .components-thumb:focus .overlay-card {
   opacity: 1;
   overflow: scroll;
+  overflow-x: hidden;
   transform: rotateY(0deg);
 }
 
