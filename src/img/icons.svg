@@ -77,13 +77,5 @@
       <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4"
         d="M29.333 2.667l-26.667 26.667M2.667 2.667l26.667 26.667"></path>
     </symbol>
-    <!--Modal Icon - leave a review 
-    about our chocolate-->
-    <symbol id="close-review" viewBox="0 0 32 32">
-      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M24 8l-16 16">
-      </path>
-      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M8 8l16 16">
-      </path>
-    </symbol>
   </defs>
 </svg>
