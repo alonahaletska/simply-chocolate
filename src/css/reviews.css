@@ -1,4 +1,8 @@
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 @media only screen and (min-width: 375px) {
 .section-title{
 font-size: 24px;
@@ -7,7 +11,11 @@ line-height: 1.17;
 }
 
 @media only screen and (min-width: 768px) {
+<<<<<<< Updated upstream
 .section-title {
+=======
+  .section-title {
+>>>>>>> Stashed changes
 margin-bottom: 49px;
   }
 }
@@ -16,7 +24,10 @@ margin-bottom: 49px;
 color: var(--accent-txt-cl);
 }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 .reviews-btn {
 min-width: 222px;
 height: 50px;
@@ -55,12 +66,19 @@ margin: auto;
 
 /**
   |============================
+<<<<<<< Updated upstream
   | Sleders slyles
+=======
+  | Slided styles
+>>>>>>> Stashed changes
   |============================
 */
 
 .slides-card {
+<<<<<<< Updated upstream
  
+=======
+>>>>>>> Stashed changes
 
   display: flex;
   text-align: center;
@@ -73,6 +91,15 @@ margin: auto;
   margin-left: auto;
   margin-right: auto;
 
+  position: relative;
+
+  max-width: 360px;
+  height: 200px;
+
+padding-top: 104px; 
+padding-bottom: 42px;
+padding-left: 18px;
+padding-right: 18px;
 
   max-width: 360px;
   height: 200px;
@@ -91,6 +118,7 @@ margin: auto;
 
 @media only screen and (min-width: 768px) {
   .slides-card {
+<<<<<<< Updated upstream
     padding-left: 16px;
     padding-right: 16px;
   }
@@ -109,15 +137,45 @@ left: auto;
 top: -42px;
 
 margin: auto;
+=======
+  padding-left: 16px;
+  padding-right: 16px;
+  }
+>>>>>>> Stashed changes
 }
 
+@media only screen and (min-width: 1200px) {
+  .slides-card {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
 
+<<<<<<< Updated upstream
 .reviews-names {
 margin-bottom: 24px;
 }
 
 .reviews-text {
 }
+=======
+.reviews-img {
+  position: absolute;
+  left: 0;
+  top: -20px;
+
+  margin: auto;
+  margin-bottom: 18px;
+
+}
+
+.reviews-names {
+  margin-bottom: 24px;
+
+}
+
+.reviews-text {}
+>>>>>>> Stashed changes
 
 .slides-txt {
   display: flex;
@@ -131,6 +189,10 @@ margin-bottom: 24px;
   |Swiper
   |============================
 */
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 /* .swiper {
   overflow: visible;
 } */
@@ -160,9 +222,32 @@ margin-bottom: 24px;
 }
 
 .swiper-wrapper {
+  margin-bottom: 20px;
+}
+
+/* .slider_pagination_btn {
+  display: inline-block;
+  padding: 6px;
+  margin: 5px;
+  background-color: #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* override default button styles */
+  /* border: none;
+  outline: none;
+}
+
+.slider_pagination_btn:hover {
+  background-color: #aaa;
+}  */ 
+
+
+/* .swiper-wrapper {
   display: flex;
   gap: 20px;
   align-items: center;
+<<<<<<< Updated upstream
   /* margin-bottom: 20px; */
 }
 
@@ -195,3 +280,6 @@ margin-bottom: 24px;
 /* border: none;
   outline: none;
 } */
+=======
+} */
+>>>>>>> Stashed changes
