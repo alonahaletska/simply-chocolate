@@ -8,19 +8,26 @@
     width: 100%;
     height: 100%;
     backdrop-filter: blur(2px);
+    z-index: 100;
 
 }
 
-/*Mobile*/
+.backdrop-leave-a-review.is-hidden{
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
 
 .modal-leave-a-review {
 
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: calc(50%);
+    left: calc(50%);
+    transform: translate(-50%, -50%);
 
     width: 311px;
-    height: 471px;
+    min-height: 471px;
     background-color: #FAFAFA;
     border-radius: 15px;
 
@@ -33,7 +40,7 @@
     height: 24px;
     top: -18px;
     right: -18px;
-    border: 2px solid var (--main-txt-cl);
+    border: 2px solid var(--main-txt-cl);
 }
 
 .modal-close-icon-review {
