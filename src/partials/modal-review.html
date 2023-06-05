@@ -1,38 +1,75 @@
-<div class="backdrop-review is-hidden " data-modal>
-    <div class="modal-review">
-        <form class="form-review">
-        <button class="modal-button-review" type="button" data-modal-close>
-            <svg class="modal-icon-review" width="12" height="12">
-            <use href="./images/icons.svg#close-dark"></use>
-            </svg>
-        </button>
-        <p class="form-text-review">LEAVE A REVIEW ABOUT <span class="form-text-OURCHOCOLATE">OUR CHOCOLATE</span> </p>
+<!-- MODAL REVIEW WINDOW -->
 
-        <div class="form-field-review">
-            <input type="text" class="form-input" name="name" id="name" placeholder="Name" />
-        </div>
+<div class="backdrop-modal-review is-hidden" data-modal-review>
+  <div class="modal-review">
+    <button
+      type="button"
+      class="modal-review-close-btn modal-review-flex"
+      data-modal-review-close
+    >
+      <svg class="modal-review-close-icon" width="24" height="24">
+        <use href="./img/icons.svg#close-dark"></use>
+      </svg>
+    </button>
+    <strong class="modal-review-first-title"
+      >LEAVE A REVIEW ABOUT
+      <span class="modal-review-second-title">OUR CHOCOLATE</span></strong
+    >
 
-        <div class="form-field-review">
-            <input type="email" class="form-input" name="email" id="email" placeholder="Email"  />
-        </div>
+    <!-- MODAL-REVIEW FORM -->
 
-        <div class="form-field-review">
-            <input type="tel" class="form-input" name="tel" id="tel" placeholder="Phone number" />
+    <form
+      class="modal-review-form modal-review-flex"
+      name="modal_review_form"
+      autocomplete="on"
+    >
+      <input
+        class="modal-review-name-input modal-review-input"
+        type="text"
+        name="modal_review_name"
+        id="modal_review_name"
+        placeholder="Name"
+        required
+      />
+      <input
+        class="modal-review-email-input modal-review-input"
+        type="email"
+        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        name="modal_review_email"
+        id="modal_review_email"
+        placeholder="Email"
+        required
+      />
+      <div class="modal-review-phone-wrapper">
+        <div class="modal-review-outer-wrapper modal-review-flex">
+          <svg class="modal-review-phone-icon" width="24" height="24">
+            <use href="./img/icons.svg#flag"></use>
+          </svg>
+          <input
+            class="modal-review-outer-text"
+            id="modal_review_outer_text"
+            placeholder="+380"
+          />
         </div>
-
-        <div class="form-field-review">
-            <textarea
-            class="form-textarea"
-            name="comment"
-            id="comment"
-            rows="5"
-            placeholder="Enter text"
-            ></textarea>
-        </div>
-
-        <div>
-            <button type="button">Send</button>
-        </div>
-        </form>
-    </div>
-    </div>
+        <input
+          class="modal-review-right-input modal-review-input"
+          type="tel"
+          name="modal_review_phone"
+          id="modal_review_phone"
+          placeholder="Phone number"
+          required
+        />
+      </div>
+      <textarea
+        class="modal-review-textarea"
+        name="modal_review_comment"
+        id="modal_review_comment"
+        rows="3"
+        placeholder="Enter text"
+      ></textarea>
+      <button class="modal-review-button modal-review-button" type="submit">
+        Send
+      </button>
+    </form>
+  </div>
+</div>
