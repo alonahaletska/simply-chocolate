@@ -1,5 +1,4 @@
-<!-- MODAL REVIEW WINDOW -->
-
+<!-- MODAL-REVIEW WINDOW -->
 <div class="backdrop-modal-review is-hidden" data-modal-review>
   <div class="modal-review">
     <button
@@ -11,13 +10,13 @@
         <use href="./img/icons.svg#close-dark"></use>
       </svg>
     </button>
-    <strong class="modal-review-first-title"
+    <strong class="modal-review-first-title modal-review-title"
       >LEAVE A REVIEW ABOUT
-      <span class="modal-review-second-title">OUR CHOCOLATE</span></strong
+      <span class="modal-review-second-title modal-review-title"
+        >OUR CHOCOLATE</span
+      ></strong
     >
-
     <!-- MODAL-REVIEW FORM -->
-
     <form
       class="modal-review-form modal-review-flex"
       name="modal_review_form"
@@ -40,7 +39,7 @@
         placeholder="Email"
         required
       />
-      <div class="modal-review-phone-wrapper">
+      <div class="modal-review-phone-wrapper modal-review-flex">
         <div class="modal-review-outer-wrapper modal-review-flex">
           <svg class="modal-review-phone-icon" width="24" height="24">
             <use href="./img/icons.svg#flag"></use>
@@ -73,9 +72,3 @@
     </form>
   </div>
 </div>
-
-<!-- Підключення MODAL REVIEW
-import "./js/modal-review.js";
-import "./js/modal-review-form.js";
-import "./js/modal-review-outer.js";
- -->
