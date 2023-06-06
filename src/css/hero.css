@@ -220,6 +220,7 @@
 .hero-button-item:last-child .hero-button {
   border: 1px solid var(--secondary-txt-cl);
   background-color: transparent;
+  text-decoration: none;
 }
 
 .hero-button:hover,
