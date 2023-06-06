@@ -377,6 +377,11 @@
   }
 }
 
+.hero-modal-close-btn:hover,
+.hero-modal-close-btn:focus {
+  background-color: var(--bg-cl-btn);
+}
+
 .hero-modal-close-icon {
   fill: #000000;
 }
