@@ -386,6 +386,13 @@
   fill: #000000;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero-modal-close-icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
 /* HERO MODAL BLOCKS */
 
 .hero-order-title {
